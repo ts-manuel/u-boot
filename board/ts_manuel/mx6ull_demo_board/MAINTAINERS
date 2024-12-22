@@ -1,0 +1,6 @@
+MX6ULL DEMO BOARD
+M:	ts-manuel <ts.manuel.dev@gmail.com>
+S:	Maintained
+F:	board/ts_manuel/mx6ull_demo_board/
+F:	include/configs/mx6ull_demo_board.h
+F:	configs/mx6ull_demo_board_defconfig
