@@ -1,0 +1,15 @@
+if TARGET_MX6ULL_DEMO_BOARD
+
+config SYS_BOARD
+	default "mx6ull_demo_board"
+
+config SYS_VENDOR
+	default "ts_manuel"
+
+config SYS_CONFIG_NAME
+	default "mx6ull_demo_board"
+
+config IMX_CONFIG
+	default "board/ts_manuel/mx6ull_demo_board/imximage.cfg"
+
+endif
