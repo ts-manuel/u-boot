@@ -25,6 +25,7 @@
 #endif
 
 #define CFG_EXTRA_ENV_SETTINGS \
+	"emmc_dev=1\0" \
 	"script=boot.scr\0" \
 	"image=zImage\0" \
 	"console=ttymxc0\0" \

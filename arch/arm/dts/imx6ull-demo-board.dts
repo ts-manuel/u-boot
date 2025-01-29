@@ -415,7 +415,8 @@
 */
 
 &usbotg1 {
-	dr_mode = "gadget";
+	dr_mode = "peripheral";
+//	dr_mode = "gadget";
 //	dr_mode = "otg";
 //	pinctrl-names = "default";
 //	pinctrl-0 = <&pinctrl_usb_otg1>;
