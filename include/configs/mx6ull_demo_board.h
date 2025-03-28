@@ -25,6 +25,10 @@
 #endif
 
 #define CFG_EXTRA_ENV_SETTINGS \
+	"ethaddr=60:02:92:01:9D:50"
+
+/*
+#define CFG_EXTRA_ENV_SETTINGS \
 	"emmc_dev=1\0" \
 	"script=boot.scr\0" \
 	"image=zImage\0" \
@@ -97,7 +101,7 @@
 		"else " \
 			"bootz; " \
 		"fi;\0" \
-
+*/
 /* Miscellaneous configurable options */
 
 /* Physical Memory Map */
